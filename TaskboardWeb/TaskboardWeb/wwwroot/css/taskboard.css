@@ -1,0 +1,19 @@
+﻿* {
+    font-size: 16px
+}
+
+a.title {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+img.icon {
+    height: 24px;
+    width: 24px;
+}
+
+input, select {
+    height: 32px;
+    width: 400px;
+}

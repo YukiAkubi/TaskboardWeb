@@ -1,0 +1,35 @@
+﻿<form method="post" asp-controller="Login" asp-action="Login">
+    <div class="entry">
+        <h2>ログイン</h2>
+        <div class="line">
+            <img class="icon" src="~/img/taskboard-icon/user.png">
+            <label>
+                ユーザコード
+            </label>
+            <input type="text" name="userCode" placeholder="ユーザコード" required>
+        </div>
+        <div class="line">
+            <img class="icon" src="~/img/taskboard-icon/password.png">
+            <label>
+                パスワード
+            </label>
+            <input type="text" name="password" placeholder="パスワード" required>
+        </div>
+        <div class="line">
+            <img class="icon" src="~/img/taskboard-icon/earth.png">
+            <label>
+                Languages
+            </label>
+            <select>
+                <option>日本語</option>
+                <option>English</option>
+            </select>
+        </div>
+        <div class="line">
+            <img src="">
+            <label>
+            </label>
+            <input type="submit" name="ログイン">
+        </div>
+    </div>
+</form>

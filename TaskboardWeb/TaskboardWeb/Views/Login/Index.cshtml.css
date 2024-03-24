@@ -1,0 +1,16 @@
+﻿div.entry {
+    display: grid;
+    gap:16px;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(4, auto);
+    justify-items: center;
+    padding: 32px;
+}
+
+div.line {
+    align-items: center;
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 24px 100px minmax(auto, 400px);
+    justify-items: center;
+}
