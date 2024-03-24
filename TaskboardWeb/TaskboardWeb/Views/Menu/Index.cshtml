@@ -1,9 +1,104 @@
-﻿<a asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-<a asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-<a asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-<a asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-<a asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-<a asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-<a asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-<a asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-<a asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+﻿<div class="menu">
+    <div class="links">
+        <div class="links-header">
+            <h3>
+                タスクボード一覧
+            </h3>
+        </div>
+        <div class="function-link">
+            <div class="anker">
+                <a class="menu-link" asp-controller="WorkingHoursTable" asp-action="Index">工数管理表</a>
+            </div>
+            <div></div>
+            <label>
+                月のタスクごとの労働時間を表形式で表示します。
+            </label>    
+        </div>
+        <div class="function-link">
+            <div class="anker">
+                <a class="menu-link" asp-controller="TaskTable" asp-action="Index">タスク管理表</a>
+            </div>
+            <div></div>
+            <label>
+                現在手持ちになっているタスクを一覧で表示します。
+            </label>
+        </div>
+    </div>
+    <div class="links">
+        <div class="links-header">
+            <h3>
+                データメンテナンス一覧
+            </h3>
+        </div>
+        <div class="function-link">
+            <div class="anker">
+                <a class="menu-link" asp-controller="ProjectsMaintenance" asp-action="Index">プロジェクトメンテナンス</a>
+            </div>
+            <div></div>
+            <label>
+                タスクボードで表示するプロジェクト情報の管理を行います。
+            </label>
+        </div>
+        <div class="function-link">
+            <div class="anker">
+                <a class="menu-link" asp-controller="TasksMaintenance" asp-action="Index">タスクメンテナンス</a>
+            </div>
+            <div></div>
+            <label>
+                タスクボードで表示する顧客情報の管理を行います。
+            </label>
+        </div>
+        <div class="function-link">
+            <div class="anker">
+                <a class="menu-link" asp-controller="VacationsMaintenance" asp-action="Index">休暇メンテナンス</a>
+            </div>
+            <div></div>
+            <label>
+                タスクボードで表示する休暇情報の管理を行います。
+            </label>
+        </div>
+    </div>
+    <div class="links">
+        <div class="links-header">
+            <h3>
+                マスタメンテナンス一覧
+            </h3>
+        </div>
+        <div class="function-link">
+            <div class="anker">
+                <a class="menu-link" class="menu-link" asp-controller="CustomersMasterMaintenance" asp-action="Index">顧客マスタメンテナンス</a>
+            </div>
+            <div></div>
+            <label>
+                タスクボードで表示する顧客マスタの管理を行います。
+            </label>
+        </div>
+        <div class="function-link">
+            <div class="anker">
+                <a class="menu-link" asp-controller="UsersMasterMaintenance" asp-action="Index">ユーザマスタメンテナンス</a>
+            </div>
+            <div></div>
+            <label>
+                タスクボードで表示するユーザマスタの管理を行います。
+            </label>
+        </div>
+        <div class="function-link">
+            <div class="anker">
+                <a class="menu-link" asp-controller="SystemsMasterMaintenance" asp-action="Index">システムマスタメンテナンス</a>
+            </div>
+            <div></div>
+            <label>
+                タスクボードで表示するシステムマスタの管理を行います。
+            </label>
+        </div>
+        <div class="function-link">
+            <div class="anker">
+                <a class="menu-link" asp-controller="HolidaysMasterMaintenance" asp-action="Index">休日マスタメンテナンス</a>
+            </div>
+            <div></div>
+            <label>
+                タスクボードで表示する休日マスタの管理を行います。
+            </label>
+            </div>
+    </div>
+</div>
